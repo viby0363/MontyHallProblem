@@ -1,0 +1,42 @@
+  <!-- Toolbar -->
+  <div class="toolbar" role="banner">
+    <img
+      width="80"
+      alt="Thinking face"
+      src="https://freesvg.org/img/indecisive-silhouette.png"
+    />
+    <span>Welcome</span>
+      <div class="spacer"></div>
+  </div>
+  
+  <div class="content" role="main">
+  
+    <!-- Highlight Card -->
+    <div class="card highlight-card card-small">
+      <span>Monty Hall Problem Simulator</span>
+    </div>
+    <form [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup.value)">
+        <div class="example-container">
+        
+            <mat-form-field hintLabel="Max 10 characters" appearance="fill">
+            <mat-label>Enter number of simulations</mat-label>
+            <input matInput placeholder="Ex. 1000" formControlName="nrOfSimulations">
+            </mat-form-field>
+        
+            <mat-form-field>
+            <mat-label>Change door</mat-label>
+            <mat-select formControlName="shouldChangeDoor">
+                <mat-option value=true>Yes</mat-option>
+                <mat-option value=false>No</mat-option>
+            </mat-select>
+            <mat-hint align="end">Here's the dropdown arrow ^</mat-hint>
+            </mat-form-field>
+        </div>
+        <button style="width: 50%; margin-left:25%; margin-right:25%" mat-fab color="primary" type="submit" [disabled]="!formGroup.valid" align="end">Go!</button>
+    </form>
+
+    
+    <!-- <button mat-fab color="primary" type="submit" [disabled]="true">Go!</button> -->
+  
+  <router-outlet></router-outlet>
+  
