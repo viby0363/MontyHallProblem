@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O6kExndDIubDtnxa4D4aPtu38UrED4WLbv2IbF01MUZgeRAMxNQGGHaMEhPlVRovA+aMXe4BXX400uUCIiKFiQ==",
+  "dgSpecHash": "e7P0pkyGyadUfe0O7i9ZP2uPi8zMOWGYTcrt55sv7GndqSy4urKDRW+rwwzp3mJzJjjH+39XvBtzcuzWYygGRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\victo\\source\\repos\\MontyHallBE\\MontyHallBE.Tests\\MontyHallBE.Tests.csproj",
+  "projectFilePath": "C:\\montyhalllast\\MontyHallProblem\\MontyHallBE\\MontyHallBE.Tests\\MontyHallBE.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\victo\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\victo\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

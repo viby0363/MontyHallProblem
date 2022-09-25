@@ -9,10 +9,10 @@ namespace MontyHallBE.Controllers
     public class MontyHallController
     {
         [HttpGet]
-        public async Task<MontyHallResponse> GetSimulationResultAsync([FromQuery]MontyHallRequest request)
+        public MontyHallResponse GetSimulationResultAsync([FromQuery]MontyHallRequest request)
         {
             var simulator = new Simulator(request.NumberOfRuns, request.ChangeDoor);
-            return await simulator.GetSimulationResult();
+            return simulator.GetSimulationResult();
         }
     }
 }

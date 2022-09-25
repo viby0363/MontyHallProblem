@@ -11,20 +11,20 @@
         public static List<DoorObject> GetRandomDoorList()
         {
             var list = new List<DoorObject>
-        {
-            new()
             {
-                Prize = BehindDoor.Car
-            },
-            new()
-            {
-                Prize = BehindDoor.Goat
-            },
-            new()
-            {
-                Prize = BehindDoor.Goat
-            }
-        };
+                new()
+                {
+                    Prize = BehindDoor.Car
+                },
+                new()
+                {
+                    Prize = BehindDoor.Goat
+                },
+                new()
+                {
+                    Prize = BehindDoor.Goat
+                }
+            };
 
             var random = new Random();
             return list.OrderBy(x => random.Next()).ToList();

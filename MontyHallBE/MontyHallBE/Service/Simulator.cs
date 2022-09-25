@@ -14,15 +14,12 @@ namespace MontyHallBE.Service
             _changeDoor = changeDoor;
         }
 
-        public async Task<MontyHallResponse> GetSimulationResult()
+        public MontyHallResponse GetSimulationResult()
         {
-            var tasks = new List<Task>();
             for (int i = 0; i < _nrOfGames; i++)
             {
-                tasks.Add(Task.Run(() => Run()));
+                Run();
             }
-
-            await Task.WhenAll(tasks);
 
             return new MontyHallResponse {
                 NumberOfGamesWon = Convert.ToInt32(_gamesWon),

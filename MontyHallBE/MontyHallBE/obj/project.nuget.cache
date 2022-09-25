@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZJAMNiukj+UOORVnJEAQg1x1X6EokvDfUP+CV7GJULLRWmq5yaChW2IPJIXD7L95edGj3sOUP1mCg3yNBI1tNw==",
+  "dgSpecHash": "yJxPkZQFB0soLZX12k7xedbU8bJWDEdBIY57clqqItatk/lwJBo64J1Hi/a0rbKfffq3hiH1c6I/EAlOy6h0nQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\victo\\source\\repos\\MontyHallBE\\MontyHallBE\\MontyHallBE.csproj",
+  "projectFilePath": "C:\\montyhalllast\\MontyHallProblem\\MontyHallBE\\MontyHallBE\\MontyHallBE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\victo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\victo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
